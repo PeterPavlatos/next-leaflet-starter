@@ -49,16 +49,11 @@ export default function Home() {
           </Map>
 
           <p className={styles.description}>
-            <code className={styles.code}>
-              yarn create next-app -e
-              https://github.com/colbyfayock/next-leaflet-starter
-            </code>
+            <code className={styles.code}>yarn create next-app -e</code>
           </p>
 
           <p className={styles.view}>
-            <Button href="https://github.com/colbyfayock/next-leaflet-starter">
-              Vew on GitHub
-            </Button>
+            <Button href="/">Vew on GitHub</Button>
           </p>
         </Container>
       </Section>
