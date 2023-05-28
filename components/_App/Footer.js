@@ -4,62 +4,62 @@ const Footer = ({ bgColor }) => {
   return (
     <>
       <footer className={`footer-area ${bgColor}`}>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-lg-3 col-sm-6 col-md-6'>
-              <div className='single-footer-widget'>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 col-sm-6 col-md-6">
+              <div className="single-footer-widget">
                 <h3>About</h3>
 
-                <ul className='link-list'>
+                <ul className="link-list">
                   <li>
-                    <Link href='/about'>
+                    <Link legacyBehavior href="/about">
                       <a>
-                        <i className='flaticon-left-chevron'></i> About Indice
+                        <i className="flaticon-left-chevron"></i> About Indice
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/about'>
+                    <Link legacyBehavior href="/about">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Careers
+                        <i className="flaticon-left-chevron"></i> Careers
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/events'>
+                    <Link legacyBehavior href="/events">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Recent News
+                        <i className="flaticon-left-chevron"></i> Recent News
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/testimonial'>
+                    <Link legacyBehavior href="/testimonial">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Investor
+                        <i className="flaticon-left-chevron"></i> Investor
                         Relations
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/how-it-works'>
+                    <Link legacyBehavior href="/how-it-works">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Content
+                        <i className="flaticon-left-chevron"></i> Content
                         Guidelines
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/faq'>
+                    <Link legacyBehavior href="/faq">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Terms of
+                        <i className="flaticon-left-chevron"></i> Terms of
                         Service
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/faq'>
+                    <Link legacyBehavior href="/faq">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Privacy Policy
+                        <i className="flaticon-left-chevron"></i> Privacy Policy
                       </a>
                     </Link>
                   </li>
@@ -67,60 +67,60 @@ const Footer = ({ bgColor }) => {
               </div>
             </div>
 
-            <div className='col-lg-3 col-sm-6 col-md-6'>
-              <div className='single-footer-widget'>
+            <div className="col-lg-3 col-sm-6 col-md-6">
+              <div className="single-footer-widget">
                 <h3>Discover</h3>
 
-                <ul className='link-list'>
+                <ul className="link-list">
                   <li>
-                    <Link href='/pricing'>
+                    <Link legacyBehavior href="/pricing">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Project Cost
+                        <i className="flaticon-left-chevron"></i> Project Cost
                         Guides
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/events'>
+                    <Link legacyBehavior href="/events">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Upcoming
+                        <i className="flaticon-left-chevron"></i> Upcoming
                         Events
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/gallery'>
+                    <Link legacyBehavior href="/gallery">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Mobile App
+                        <i className="flaticon-left-chevron"></i> Mobile App
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/contact'>
+                    <Link legacyBehavior href="/contact">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Customer
+                        <i className="flaticon-left-chevron"></i> Customer
                         Support
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/testimonial'>
+                    <Link legacyBehavior href="/testimonial">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Developers
+                        <i className="flaticon-left-chevron"></i> Developers
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/gallery'>
+                    <Link legacyBehavior href="/gallery">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Collections
+                        <i className="flaticon-left-chevron"></i> Collections
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/blog-1'>
+                    <Link legacyBehavior href="/blog-1">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Our Blog
+                        <i className="flaticon-left-chevron"></i> Our Blog
                       </a>
                     </Link>
                   </li>
@@ -128,63 +128,63 @@ const Footer = ({ bgColor }) => {
               </div>
             </div>
 
-            <div className='col-lg-3 col-sm-6 col-md-6'>
-              <div className='single-footer-widget'>
+            <div className="col-lg-3 col-sm-6 col-md-6">
+              <div className="single-footer-widget">
                 <h3>Business With Indice</h3>
 
-                <ul className='link-list'>
+                <ul className="link-list">
                   <li>
-                    <Link href='/testimonial'>
+                    <Link legacyBehavior href="/testimonial">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Claim your
+                        <i className="flaticon-left-chevron"></i> Claim your
                         Business
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/gallery'>
+                    <Link legacyBehavior href="/gallery">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Advertise on
+                        <i className="flaticon-left-chevron"></i> Advertise on
                         Indice
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/events'>
+                    <Link legacyBehavior href="/events">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Restaurant
+                        <i className="flaticon-left-chevron"></i> Restaurant
                         Owners
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/testimonial'>
+                    <Link legacyBehavior href="/testimonial">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Business
+                        <i className="flaticon-left-chevron"></i> Business
                         Success Stories
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/contact'>
+                    <Link legacyBehavior href="/contact">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Business
+                        <i className="flaticon-left-chevron"></i> Business
                         Support
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/blog-1'>
+                    <Link legacyBehavior href="/blog-1">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Blog for
+                        <i className="flaticon-left-chevron"></i> Blog for
                         Business
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/faq'>
+                    <Link legacyBehavior href="/faq">
                       <a>
-                        <i className='flaticon-left-chevron'></i> Privacy Policy
+                        <i className="flaticon-left-chevron"></i> Privacy Policy
                       </a>
                     </Link>
                   </li>
@@ -192,10 +192,10 @@ const Footer = ({ bgColor }) => {
               </div>
             </div>
 
-            <div className='col-lg-3 col-sm-6 col-md-6'>
-              <div className='single-footer-widget'>
+            <div className="col-lg-3 col-sm-6 col-md-6">
+              <div className="single-footer-widget">
                 <h3>Languages</h3>
-                <div className='languages-switch'>
+                <div className="languages-switch">
                   <select>
                     <option>English</option>
                     <option>Spanish</option>
@@ -205,7 +205,7 @@ const Footer = ({ bgColor }) => {
                 </div>
 
                 <h3>Countries</h3>
-                <div className='country-switch'>
+                <div className="country-switch">
                   <select>
                     <option>United States</option>
                     <option>Canada</option>
@@ -217,18 +217,18 @@ const Footer = ({ bgColor }) => {
             </div>
           </div>
 
-          <div className='copyright-area'>
+          <div className="copyright-area">
             <p>
               Copyright <span>Indice</span> is Proudly Owned by{' '}
-              <a href='https://envytheme.com/' target='_blank' rel='noreferrer'>
+              <a href="https://envytheme.com/" target="_blank" rel="noreferrer">
                 EnvyTheme
               </a>
             </p>
           </div>
         </div>
 
-        <div className='footer-image text-center'>
-          <img src='/images/footer-image.png' alt='image' />
+        <div className="footer-image text-center">
+          <img src="/images/footer-image.png" alt="image" />
         </div>
       </footer>
     </>

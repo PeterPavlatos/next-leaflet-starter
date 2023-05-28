@@ -50,65 +50,68 @@ const ComingSoong = () => {
 
   return (
     <>
-      <div className='coming-soon-area'>
-        <div className='d-table'>
-          <div className='d-table-cell'>
-            <div className='coming-soon-content'>
-              <Link href='/'>
-                <a className='logo'>
-                  <img src='/images/black-logo.png' alt='image' />
+      <div className="coming-soon-area">
+        <div className="d-table">
+          <div className="d-table-cell">
+            <div className="coming-soon-content">
+              <Link legacyBehavior href="/">
+                <a className="logo">
+                  <img src="/images/black-logo.png" alt="image" />
                 </a>
               </Link>
 
               <h2>We Are Launching Soon</h2>
 
-              <div id='timer' className='flex-wrap d-flex justify-content-center'>
+              <div
+                id="timer"
+                className="flex-wrap d-flex justify-content-center"
+              >
                 <div
-                  id='days'
-                  className='align-items-center flex-column d-flex justify-content-center'
+                  id="days"
+                  className="align-items-center flex-column d-flex justify-content-center"
                 >
                   {' '}
                   {days} <span>DAYS</span>
                 </div>
                 <div
-                  id='hours'
-                  className='align-items-center flex-column d-flex justify-content-center'
+                  id="hours"
+                  className="align-items-center flex-column d-flex justify-content-center"
                 >
                   {hours} <span>HOURS</span>
                 </div>
                 <div
-                  id='minutes'
-                  className='align-items-center flex-column d-flex justify-content-center'
+                  id="minutes"
+                  className="align-items-center flex-column d-flex justify-content-center"
                 >
                   {minutes} <span>MINUTES</span>
                 </div>
                 <div
-                  id='seconds'
-                  className='align-items-center flex-column d-flex justify-content-center'
+                  id="seconds"
+                  className="align-items-center flex-column d-flex justify-content-center"
                 >
                   {seconds} <span>SECONDS</span>
                 </div>
               </div>
 
-              <form className='newsletter-form'>
-                <div className='form-group'>
+              <form className="newsletter-form">
+                <div className="form-group">
                   <input
-                    type='email'
-                    className='input-newsletter'
-                    placeholder='Enter your email'
-                    name='EMAIL'
+                    type="email"
+                    className="input-newsletter"
+                    placeholder="Enter your email"
+                    name="EMAIL"
                     required
-                    autocomplete='off'
+                    autocomplete="off"
                   />
-                  <span className='label-title'>
-                    <i className='bx bx-envelope'></i>
+                  <span className="label-title">
+                    <i className="bx bx-envelope"></i>
                   </span>
                 </div>
 
-                <button type='submit' className='default-btn'>
+                <button type="submit" className="default-btn">
                   Subscribe
                 </button>
-                
+
                 <p>
                   If you would like to be notified when your app is live, Please
                   subscribe to our mailing list.

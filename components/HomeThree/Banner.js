@@ -1,15 +1,15 @@
 import React from 'react';
 import Link from 'next/link';
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper';
 
 const Banner = () => {
   return (
     <>
-      <section className='banner-wrapper-area'>
-        <div className='container'>
-          <div className='banner-wrapper-content'>
-            <h1 className='banner-three-heading'>
+      <section className="banner-wrapper-area">
+        <div className="container">
+          <div className="banner-wrapper-content">
+            <h1 className="banner-three-heading">
               <Swiper
                 autoplay={{
                   delay: 5000,
@@ -32,7 +32,7 @@ const Banner = () => {
                 <SwiperSlide>
                   Find Nearby <span className="color-0ec6c6">Fitness</span>
                 </SwiperSlide>
-                
+
                 <SwiperSlide>
                   Find Nearby <span className="color-0ec6c6">Shopping</span>
                 </SwiperSlide>
@@ -40,41 +40,41 @@ const Banner = () => {
             </h1>
 
             <p>Expolore top-rated attractions, activities and more...</p>
-            
+
             <form>
-              <div className='row m-0 align-items-center'>
-                <div className='col-lg-4 col-md-12 p-0'>
-                  <div className='form-group'>
+              <div className="row m-0 align-items-center">
+                <div className="col-lg-4 col-md-12 p-0">
+                  <div className="form-group">
                     <label>
-                      <i className='flaticon-search'></i>
+                      <i className="flaticon-search"></i>
                     </label>
                     <input
-                      type='text'
-                      className='form-control'
-                      placeholder='What are you looking for?'
+                      type="text"
+                      className="form-control"
+                      placeholder="What are you looking for?"
                     />
                   </div>
                 </div>
 
-                <div className='col-lg-3 col-md-6 p-0'>
-                  <div className='form-group'>
+                <div className="col-lg-3 col-md-6 p-0">
+                  <div className="form-group">
                     <label>
-                      <i className='flaticon-pin'></i>
+                      <i className="flaticon-pin"></i>
                     </label>
                     <input
-                      type='text'
-                      className='form-control'
-                      placeholder='Location'
+                      type="text"
+                      className="form-control"
+                      placeholder="Location"
                     />
                   </div>
                 </div>
 
-                <div className='col-lg-3 col-md-6 p-0'>
-                  <div className='form-group category-select banner-three-select-custom'>
-                    <label className='category-icon'>
-                      <i className='flaticon-category'></i>
+                <div className="col-lg-3 col-md-6 p-0">
+                  <div className="form-group category-select banner-three-select-custom">
+                    <label className="category-icon">
+                      <i className="flaticon-category"></i>
                     </label>
-                    <select className='banner-form-select-two'>
+                    <select className="banner-form-select-two">
                       <option>All Categories</option>
                       <option>Restaurants</option>
                       <option>Events</option>
@@ -91,43 +91,43 @@ const Banner = () => {
                   </div>
                 </div>
 
-                <div className='col-lg-2 col-md-12 p-0'>
-                  <div className='submit-btn'>
-                    <button type='submit'>Search Now</button>
+                <div className="col-lg-2 col-md-12 p-0">
+                  <div className="submit-btn">
+                    <button type="submit">Search Now</button>
                   </div>
                 </div>
               </div>
             </form>
-            
-            <ul className='popular-search-list'>
+
+            <ul className="popular-search-list">
               <li>Popular:</li>
               <li>
-                <Link href='/grid-listings-with-map'>
+                <Link legacyBehavior href="/grid-listings-with-map">
                   <a>Restaurants</a>
                 </Link>
               </li>
               <li>
-                <Link href='/grid-listings-with-map'>
+                <Link legacyBehavior href="/grid-listings-with-map">
                   <a>Events</a>
                 </Link>
               </li>
               <li>
-                <Link href='/grid-listings-with-map'>
+                <Link legacyBehavior href="/grid-listings-with-map">
                   <a>Clothing</a>
                 </Link>
               </li>
               <li>
-                <Link href='/grid-listings-with-map'>
+                <Link legacyBehavior href="/grid-listings-with-map">
                   <a>Bank</a>
                 </Link>
               </li>
               <li>
-                <Link href='/grid-listings-with-map'>
+                <Link legacyBehavior href="/grid-listings-with-map">
                   <a>Fitness</a>
                 </Link>
               </li>
               <li>
-                <Link href='/grid-listings-with-map'>
+                <Link legacyBehavior href="/grid-listings-with-map">
                   <a>Bookstore</a>
                 </Link>
               </li>

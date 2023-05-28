@@ -49,7 +49,7 @@ const GridListingsWithRightSidebar = () => {
                   <div className='single-listings-box'>
                     <div className='listings-image'>
                       <img src='/images/listings/listings1.jpg' alt='image' />
-                      <Link href='/single-listings'>
+                      <Link legacyBehavior href='/single-listings'>
 
                       <a className='link-btn'></a>
                       </Link>
@@ -84,7 +84,7 @@ const GridListingsWithRightSidebar = () => {
                       </ul>
 
                       <h3>
-                        <Link href='/single-listings'>
+                        <Link legacyBehavior href='/single-listings'>
                           <a>
                             Chipotle Mexican Grill
                           </a>
@@ -127,7 +127,7 @@ const GridListingsWithRightSidebar = () => {
                               src='/images/listings/listings2.jpg'
                               alt='image'
                             />
-                            <Link href='/single-listings'>
+                            <Link legacyBehavior href='/single-listings'>
                               <a
                                 className='link-btn'
                               ></a>
@@ -141,7 +141,7 @@ const GridListingsWithRightSidebar = () => {
                               src='/images/listings/listings4.jpg'
                               alt='image'
                             />
-                            <Link href='/single-listings'>
+                            <Link legacyBehavior href='/single-listings'>
                               <a
                                 className='link-btn'
                               ></a>
@@ -179,7 +179,7 @@ const GridListingsWithRightSidebar = () => {
                         </li>
                       </ul>
                       <h3>
-                        <Link href='/single-listings'>
+                        <Link legacyBehavior href='/single-listings'>
                           <a>
                             The Beverly Hills Hotel
                           </a>
@@ -210,7 +210,7 @@ const GridListingsWithRightSidebar = () => {
                   <div className='single-listings-box'>
                     <div className='listings-image'>
                       <img src='/images/listings/listings3.jpg' alt='image' />
-                      <Link href='/single-listings'>
+                      <Link legacyBehavior href='/single-listings'>
                         <a className='link-btn'></a>
                       </Link>
                       <a href='#' className='bookmark-save'>
@@ -241,7 +241,7 @@ const GridListingsWithRightSidebar = () => {
                         </li>
                       </ul>
                       <h3>
-                        <Link href='/single-listings'>
+                        <Link legacyBehavior href='/single-listings'>
                           <a>
                             Central Shopping Center
                           </a>
@@ -284,7 +284,7 @@ const GridListingsWithRightSidebar = () => {
                               src='/images/listings/listings5.jpg'
                               alt='image'
                             />
-                            <Link href='/single-listings'>
+                            <Link legacyBehavior href='/single-listings'>
                               <a
                                 className='link-btn'
                               ></a>
@@ -298,7 +298,7 @@ const GridListingsWithRightSidebar = () => {
                               src='/images/listings/listings6.jpg'
                               alt='image'
                             />
-                            <Link href='/single-listings'>
+                            <Link legacyBehavior href='/single-listings'>
                               <a
                                 className='link-btn'
                               ></a>
@@ -336,7 +336,7 @@ const GridListingsWithRightSidebar = () => {
                         </li>
                       </ul>
                       <h3>
-                        <Link href='/single-listings'>
+                        <Link legacyBehavior href='/single-listings'>
                           <a>Indice Beauty Center</a>
                         </Link>
                       </h3>
@@ -366,7 +366,7 @@ const GridListingsWithRightSidebar = () => {
                   <div className='single-listings-box'>
                     <div className='listings-image'>
                       <img src='/images/listings/listings7.jpg' alt='image' />
-                      <Link href='/single-listings'>
+                      <Link legacyBehavior href='/single-listings'>
                         <a className='link-btn'></a>
                       </Link>
                       <a href='#' className='bookmark-save'>
@@ -399,7 +399,7 @@ const GridListingsWithRightSidebar = () => {
                       </ul>
 
                       <h3>
-                        <Link href='/single-listings'>
+                        <Link legacyBehavior href='/single-listings'>
                           <a>The Mad Made Grill</a>
                         </Link>
                       </h3>
@@ -440,7 +440,7 @@ const GridListingsWithRightSidebar = () => {
                               src='/images/listings/listings4.jpg'
                               alt='image'
                             />
-                            <Link href='/single-listings'>
+                            <Link legacyBehavior href='/single-listings'>
                               <a
                                 className='link-btn'
                               ></a>
@@ -454,7 +454,7 @@ const GridListingsWithRightSidebar = () => {
                                 src='/images/listings/listings2.jpg'
                                 alt='image'
                               />
-                              <Link href='/single-listings'>
+                              <Link legacyBehavior href='/single-listings'>
                                 <a
                                   className='link-btn'
                                 ></a>
@@ -492,7 +492,7 @@ const GridListingsWithRightSidebar = () => {
                       </ul>
 
                       <h3>
-                        <Link href='/single-listings'>
+                        <Link legacyBehavior href='/single-listings'>
                           <a>
                             The Beverly Hills Hotel
                           </a>
@@ -524,7 +524,7 @@ const GridListingsWithRightSidebar = () => {
                   <div className='single-listings-box'>
                     <div className='listings-image'>
                       <img src='/images/listings/listings13.jpg' alt='image' />
-                      <Link href='/single-listings'>
+                      <Link legacyBehavior href='/single-listings'>
                         <a className='link-btn'></a>
                       </Link>
                       <a href='#' className='bookmark-save'>
@@ -557,7 +557,7 @@ const GridListingsWithRightSidebar = () => {
                       </ul>
 
                       <h3>
-                        <Link href='/single-listings'>
+                        <Link legacyBehavior href='/single-listings'>
                           <a>Power House Gym</a>
                         </Link>
                       </h3>
@@ -597,7 +597,7 @@ const GridListingsWithRightSidebar = () => {
                               src='/images/listings/listings14.jpg'
                               alt='image'
                             />
-                            <Link href='/single-listings'>
+                            <Link legacyBehavior href='/single-listings'>
                               <a
                                 className='link-btn'
                               ></a>
@@ -611,7 +611,7 @@ const GridListingsWithRightSidebar = () => {
                               src='/images/listings/listings15.jpg'
                               alt='image'
                             />
-                            <Link href='/single-listings'>
+                            <Link legacyBehavior href='/single-listings'>
                               <a
                                 className='link-btn'
                               ></a>
@@ -648,7 +648,7 @@ const GridListingsWithRightSidebar = () => {
                         </li>
                       </ul>
                       <h3>
-                      <Link href='/single-listings'>
+                      <Link legacyBehavior href='/single-listings'>
                         <a>
                           Divine Beauty Parlour & Spa
                         </a>

@@ -7,20 +7,30 @@ const Header = () => {
     <header className={styles.header}>
       <Container className={styles.headerContainer}>
         <p className={styles.headerTitle}>
-          <Link href="/">Home</Link>
+          <Link legacyBehavior href="/">
+            Home
+          </Link>
         </p>
         <ul className={styles.headerLinks}>
           <li>
-            <Link href="/">Home</Link>
+            <Link legacyBehavior href="/">
+              Home
+            </Link>
           </li>
           <li>
-            <Link href="/about">About Us</Link>
+            <Link legacyBehavior href="/about">
+              About Us
+            </Link>
           </li>
           <li>
-            <Link href="/login">Login</Link>
+            <Link legacyBehavior href="/login">
+              Login
+            </Link>
           </li>
           <li>
-            <Link href="/register">Register</Link>
+            <Link legacyBehavior href="/register">
+              Register
+            </Link>
           </li>
         </ul>
       </Container>

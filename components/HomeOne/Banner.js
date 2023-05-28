@@ -1,7 +1,7 @@
-import React from "react";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
+import React from 'react';
+import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper';
 
 const Banner = () => {
   return (
@@ -23,7 +23,8 @@ const Banner = () => {
                   </SwiperSlide>
 
                   <SwiperSlide>
-                    Find Nearby <span className="color-0ec6c6">Restaurants</span>
+                    Find Nearby{' '}
+                    <span className="color-0ec6c6">Restaurants</span>
                   </SwiperSlide>
 
                   <SwiperSlide>
@@ -33,7 +34,7 @@ const Banner = () => {
                   <SwiperSlide>
                     Find Nearby <span className="color-0ec6c6">Fitness</span>
                   </SwiperSlide>
-                  
+
                   <SwiperSlide>
                     Find Nearby <span className="color-0ec6c6">Shopping</span>
                   </SwiperSlide>
@@ -104,32 +105,32 @@ const Banner = () => {
             <ul className="popular-search-list">
               <li>Popular:</li>
               <li>
-                <Link href="/grid-listings-with-map">
+                <Link legacyBehavior href="/grid-listings-with-map">
                   <a>Restaurants</a>
                 </Link>
               </li>
               <li>
-                <Link href="/grid-listings-with-map">
+                <Link legacyBehavior href="/grid-listings-with-map">
                   <a>Events</a>
                 </Link>
               </li>
               <li>
-                <Link href="/grid-listings-with-map">
+                <Link legacyBehavior href="/grid-listings-with-map">
                   <a>Clothing</a>
                 </Link>
               </li>
               <li>
-                <Link href="/grid-listings-with-map">
+                <Link legacyBehavior href="/grid-listings-with-map">
                   <a>Bank</a>
                 </Link>
               </li>
               <li>
-                <Link href="/grid-listings-with-map">
+                <Link legacyBehavior href="/grid-listings-with-map">
                   <a>Fitness</a>
                 </Link>
               </li>
               <li>
-                <Link href="/grid-listings-with-map">
+                <Link legacyBehavior href="/grid-listings-with-map">
                   <a>Bookstore</a>
                 </Link>
               </li>
