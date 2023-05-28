@@ -44,7 +44,7 @@ const DashboardListingArea = () => {
                     <div className="single-listings-box">
                       <div className="listings-image">
                         <img src="/images/listings/listings1.jpg" alt="image" />
-                        <Link legacyBehaviorref="/single-listings">
+                        <Link legacyBehavior href="/single-listings">
                           <a className="link-btn"></a>
                         </Link>
                       </div>
@@ -64,7 +64,7 @@ const DashboardListingArea = () => {
                           </li>
                         </ul>
                         <h3>
-                          <Link legacyBehaviorref="/single-listings">
+                          <Link legacyBehavior href="/single-listings">
                             <a>Chipotle Mexican Grill</a>
                           </Link>
                         </h3>
@@ -108,7 +108,7 @@ const DashboardListingArea = () => {
                                 src="/images/listings/listings2.jpg"
                                 alt="image"
                               />
-                              <Link legacyBehaviorref="/single-listings">
+                              <Link legacyBehavior href="/single-listings">
                                 <a className="link-btn"></a>
                               </Link>
                             </div>
@@ -120,7 +120,7 @@ const DashboardListingArea = () => {
                                 src="/images/listings/listings4.jpg"
                                 alt="image"
                               />
-                              <Link legacyBehaviorref="/single-listings">
+                              <Link legacyBehavior href="/single-listings">
                                 <a className="link-btn"></a>
                               </Link>
                             </div>
@@ -143,7 +143,7 @@ const DashboardListingArea = () => {
                           </li>
                         </ul>
                         <h3>
-                          <Link legacyBehaviorref="/single-listings">
+                          <Link legacyBehavior href="/single-listings">
                             <a>The Beverly Hills Hotel</a>
                           </Link>
                         </h3>
@@ -176,7 +176,7 @@ const DashboardListingArea = () => {
                     <div className="single-listings-box">
                       <div className="listings-image">
                         <img src="/images/listings/listings3.jpg" alt="image" />
-                        <Link legacyBehaviorref="/single-listings">
+                        <Link legacyBehavior href="/single-listings">
                           <a className="link-btn"></a>
                         </Link>
                       </div>
@@ -196,7 +196,7 @@ const DashboardListingArea = () => {
                           </li>
                         </ul>
                         <h3>
-                          <Link legacyBehaviorref="/single-listings">
+                          <Link legacyBehavior href="/single-listings">
                             <a>Central Shopping Center</a>
                           </Link>
                         </h3>
@@ -240,7 +240,7 @@ const DashboardListingArea = () => {
                                 src="/images/listings/listings5.jpg"
                                 alt="image"
                               />
-                              <Link legacyBehaviorref="/single-listings">
+                              <Link legacyBehavior href="/single-listings">
                                 <a className="link-btn"></a>
                               </Link>
                             </div>
@@ -252,7 +252,7 @@ const DashboardListingArea = () => {
                                 src="/images/listings/listings6.jpg"
                                 alt="image"
                               />
-                              <Link legacyBehaviorref="/single-listings">
+                              <Link legacyBehavior href="/single-listings">
                                 <a className="link-btn"></a>
                               </Link>
                             </div>
@@ -274,7 +274,7 @@ const DashboardListingArea = () => {
                           </li>
                         </ul>
                         <h3>
-                          <Link legacyBehaviorref="/single-listings">
+                          <Link legacyBehavior href="/single-listings">
                             <a>Indice Beauty Center</a>
                           </Link>
                         </h3>
@@ -307,7 +307,7 @@ const DashboardListingArea = () => {
                     <div className="single-listings-box">
                       <div className="listings-image">
                         <img src="/images/listings/listings7.jpg" alt="image" />
-                        <Link legacyBehaviorref="/single-listings">
+                        <Link legacyBehavior href="/single-listings">
                           <a className="link-btn"></a>
                         </Link>
                       </div>
@@ -327,7 +327,7 @@ const DashboardListingArea = () => {
                           </li>
                         </ul>
                         <h3>
-                          <Link legacyBehaviorref="/single-listings">
+                          <Link legacyBehavior href="/single-listings">
                             <a>The Mad Made Grill</a>
                           </Link>
                         </h3>
@@ -371,7 +371,7 @@ const DashboardListingArea = () => {
                                 src="/images/listings/listings4.jpg"
                                 alt="image"
                               />
-                              <Link legacyBehaviorref="/single-listings">
+                              <Link legacyBehavior href="/single-listings">
                                 <a className="link-btn"></a>
                               </Link>
                             </div>
@@ -383,7 +383,7 @@ const DashboardListingArea = () => {
                                 src="/images/listings/listings2.jpg"
                                 alt="image"
                               />
-                              <Link legacyBehaviorref="/single-listings">
+                              <Link legacyBehavior href="/single-listings">
                                 <a className="link-btn"></a>
                               </Link>
                             </div>
@@ -405,7 +405,7 @@ const DashboardListingArea = () => {
                           </li>
                         </ul>
                         <h3>
-                          <Link legacyBehaviorref="/single-listings">
+                          <Link legacyBehavior href="/single-listings">
                             <a>The Beverly Hills Hotel</a>
                           </Link>
                         </h3>
@@ -444,7 +444,7 @@ const DashboardListingArea = () => {
                     <div className="single-listings-box">
                       <div className="listings-image">
                         <img src="/images/listings/listings1.jpg" alt="image" />
-                        <Link legacyBehaviorref="/single-listings">
+                        <Link legacyBehavior href="/single-listings">
                           <a className="link-btn"></a>
                         </Link>
                       </div>
@@ -464,7 +464,7 @@ const DashboardListingArea = () => {
                           </li>
                         </ul>
                         <h3>
-                          <Link legacyBehaviorref="/single-listings">
+                          <Link legacyBehavior href="/single-listings">
                             <a>Chipotle Mexican Grill</a>
                           </Link>
                         </h3>
@@ -508,7 +508,7 @@ const DashboardListingArea = () => {
                                 src="/images/listings/listings4.jpg"
                                 alt="image"
                               />
-                              <Link legacyBehaviorref="/single-listings">
+                              <Link legacyBehavior href="/single-listings">
                                 <a className="link-btn"></a>
                               </Link>
                             </div>
@@ -520,7 +520,7 @@ const DashboardListingArea = () => {
                                 src="/images/listings/listings2.jpg"
                                 alt="image"
                               />
-                              <Link legacyBehaviorref="/single-listings">
+                              <Link legacyBehavior href="/single-listings">
                                 <a className="link-btn"></a>
                               </Link>
                             </div>
@@ -543,7 +543,7 @@ const DashboardListingArea = () => {
                           </li>
                         </ul>
                         <h3>
-                          <Link legacyBehaviorref="/single-listings">
+                          <Link legacyBehavior href="/single-listings">
                             <a>The Beverly Hills Hotel</a>
                           </Link>
                         </h3>
@@ -576,7 +576,7 @@ const DashboardListingArea = () => {
                     <div className="single-listings-box">
                       <div className="listings-image">
                         <img src="/images/listings/listings3.jpg" alt="image" />
-                        <Link legacyBehaviorref="/single-listings">
+                        <Link legacyBehavior href="/single-listings">
                           <a className="link-btn"></a>
                         </Link>
                       </div>
@@ -596,7 +596,7 @@ const DashboardListingArea = () => {
                           </li>
                         </ul>
                         <h3>
-                          <Link legacyBehaviorref="/single-listings">
+                          <Link legacyBehavior href="/single-listings">
                             <a>Central Shopping Center</a>
                           </Link>
                         </h3>
@@ -646,7 +646,7 @@ const DashboardListingArea = () => {
                                 src="/images/listings/listings4.jpg"
                                 alt="image"
                               />
-                              <Link legacyBehaviorref="/single-listings">
+                              <Link legacyBehavior href="/single-listings">
                                 <a className="link-btn"></a>
                               </Link>
                             </div>
@@ -658,7 +658,7 @@ const DashboardListingArea = () => {
                                 src="/images/listings/listings2.jpg"
                                 alt="image"
                               />
-                              <Link legacyBehaviorref="/single-listings">
+                              <Link legacyBehavior href="/single-listings">
                                 <a className="link-btn"></a>
                               </Link>
                             </div>
@@ -680,7 +680,7 @@ const DashboardListingArea = () => {
                           </li>
                         </ul>
                         <h3>
-                          <Link legacyBehaviorref="/single-listings">
+                          <Link legacyBehavior href="/single-listings">
                             <a>Indice Beauty Center</a>
                           </Link>
                         </h3>
@@ -713,7 +713,7 @@ const DashboardListingArea = () => {
                     <div className="single-listings-box">
                       <div className="listings-image">
                         <img src="/images/listings/listings7.jpg" alt="image" />
-                        <Link legacyBehaviorref="/single-listings">
+                        <Link legacyBehavior href="/single-listings">
                           <a className="link-btn"></a>
                         </Link>
                       </div>
@@ -733,7 +733,7 @@ const DashboardListingArea = () => {
                           </li>
                         </ul>
                         <h3>
-                          <Link legacyBehaviorref="/single-listings">
+                          <Link legacyBehavior href="/single-listings">
                             <a>The Mad Made Grill</a>
                           </Link>
                         </h3>
@@ -783,7 +783,7 @@ const DashboardListingArea = () => {
                                 src="/images/listings/listings4.jpg"
                                 alt="image"
                               />
-                              <Link legacyBehaviorref="/single-listings">
+                              <Link legacyBehavior href="/single-listings">
                                 <a className="link-btn"></a>
                               </Link>
                             </div>
@@ -795,7 +795,7 @@ const DashboardListingArea = () => {
                                 src="/images/listings/listings2.jpg"
                                 alt="image"
                               />
-                              <Link legacyBehaviorref="/single-listings">
+                              <Link legacyBehavior href="/single-listings">
                                 <a className="link-btn"></a>
                               </Link>
                             </div>
@@ -817,7 +817,7 @@ const DashboardListingArea = () => {
                           </li>
                         </ul>
                         <h3>
-                          <Link legacyBehaviorref="/single-listings">
+                          <Link legacyBehavior href="/single-listings">
                             <a>The Beverly Hills Hotel</a>
                           </Link>
                         </h3>
