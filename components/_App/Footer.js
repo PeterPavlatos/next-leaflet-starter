@@ -9,7 +9,7 @@ const Footer = ({ bgColor }) => {
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-footer-widget">
                 <h3>About</h3>
- 
+
                 <ul className="link-list">
                   <li>
                     <Link legacyBehavior href="/about">
