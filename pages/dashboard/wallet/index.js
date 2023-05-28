@@ -15,12 +15,12 @@ const Wallet = () => {
           <h1>Wallet</h1>
           <ol className="breadcrumb">
             <li className="item">
-              <Link legacyBehaviorref="/dashboard">
+              <Link legacyBehavior href="/dashboard">
                 <a>Home</a>
               </Link>
             </li>
             <li className="item">
-              <Link legacyBehaviorref="/dashoboard">
+              <Link legacyBehavior href="/dashoboard">
                 <a>Dashboard</a>
               </Link>
             </li>

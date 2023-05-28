@@ -19,12 +19,12 @@ const BookMarks = () => {
           <h1>Bookmarked Listings</h1>
           <ol className="breadcrumb">
             <li className="item">
-              <Link legacyBehaviorref="/dashboard">
+              <Link legacyBehavior href="/dashboard">
                 <a>Home</a>
               </Link>
             </li>
             <li className="item">
-              <Link legacyBehaviorref="/dashboard">
+              <Link legacyBehavior href="/dashboard">
                 <a>Dashboard</a>
               </Link>
             </li>
@@ -38,7 +38,7 @@ const BookMarks = () => {
               <div className="single-listings-box">
                 <div className="listings-image">
                   <img src="/images/listings/listings1.jpg" alt="image" />
-                  <Link legacyBehaviorref="/single-listings">
+                  <Link legacyBehavior href="/single-listings">
                     <a className="link-btn"></a>
                   </Link>
                 </div>
@@ -58,7 +58,7 @@ const BookMarks = () => {
                     </li>
                   </ul>
                   <h3>
-                    <Link legacyBehaviorref="/single-listings">
+                    <Link legacyBehavior href="/single-listings">
                       <a>Chipotle Mexican Grill</a>
                     </Link>
                   </h3>
@@ -94,7 +94,7 @@ const BookMarks = () => {
                     <SwiperSlide>
                       <div className="single-image">
                         <img src="/images/listings/listings4.jpg" alt="image" />
-                        <Link legacyBehaviorref="/single-listings">
+                        <Link legacyBehavior href="/single-listings">
                           <a className="link-btn"></a>
                         </Link>
                       </div>
@@ -103,7 +103,7 @@ const BookMarks = () => {
                     <SwiperSlide>
                       <div className="single-image">
                         <img src="/images/listings/listings2.jpg" alt="image" />
-                        <Link legacyBehaviorref="/single-listings">
+                        <Link legacyBehavior href="/single-listings">
                           <a className="link-btn"></a>
                         </Link>
                       </div>
@@ -126,7 +126,7 @@ const BookMarks = () => {
                     </li>
                   </ul>
                   <h3>
-                    <Link legacyBehaviorref="/single-listings">
+                    <Link legacyBehavior href="/single-listings">
                       <a>The Beverly Hills Hotel</a>
                     </Link>
                   </h3>
@@ -154,7 +154,7 @@ const BookMarks = () => {
               <div className="single-listings-box">
                 <div className="listings-image">
                   <img src="/images/listings/listings3.jpg" alt="image" />
-                  <Link legacyBehaviorref="/single-listings">
+                  <Link legacyBehavior href="/single-listings">
                     <a className="link-btn"></a>
                   </Link>
                 </div>
@@ -173,7 +173,7 @@ const BookMarks = () => {
                     </li>
                   </ul>
                   <h3>
-                    <Link legacyBehaviorref="/single-listings">
+                    <Link legacyBehavior href="/single-listings">
                       <a>Central Shopping Center</a>
                     </Link>
                   </h3>
@@ -209,7 +209,7 @@ const BookMarks = () => {
                     <SwiperSlide>
                       <div className="single-image">
                         <img src="/images/listings/listings4.jpg" alt="image" />
-                        <Link legacyBehaviorref="/single-listings">
+                        <Link legacyBehavior href="/single-listings">
                           <a className="link-btn"></a>
                         </Link>
                       </div>
@@ -218,7 +218,7 @@ const BookMarks = () => {
                     <SwiperSlide>
                       <div className="single-image">
                         <img src="/images/listings/listings2.jpg" alt="image" />
-                        <Link legacyBehaviorref="/single-listings">
+                        <Link legacyBehavior href="/single-listings">
                           <a className="link-btn"></a>
                         </Link>
                       </div>
@@ -240,7 +240,7 @@ const BookMarks = () => {
                     </li>
                   </ul>
                   <h3>
-                    <Link legacyBehaviorref="/single-listings">
+                    <Link legacyBehavior href="/single-listings">
                       <a>Indice Beauty Center</a>
                     </Link>
                   </h3>
@@ -268,7 +268,7 @@ const BookMarks = () => {
               <div className="single-listings-box">
                 <div className="listings-image">
                   <img src="/images/listings/listings7.jpg" alt="image" />
-                  <Link legacyBehaviorref="/single-listings">
+                  <Link legacyBehavior href="/single-listings">
                     <a className="link-btn"></a>
                   </Link>
                 </div>
@@ -288,7 +288,7 @@ const BookMarks = () => {
                     </li>
                   </ul>
                   <h3>
-                    <Link legacyBehaviorref="/single-listings">
+                    <Link legacyBehavior href="/single-listings">
                       <a>The Mad Made Grill</a>
                     </Link>
                   </h3>
@@ -324,7 +324,7 @@ const BookMarks = () => {
                     <SwiperSlide>
                       <div className="single-image">
                         <img src="/images/listings/listings4.jpg" alt="image" />
-                        <Link legacyBehaviorref="/single-listings">
+                        <Link legacyBehavior href="/single-listings">
                           <a className="link-btn"></a>
                         </Link>
                       </div>
@@ -333,7 +333,7 @@ const BookMarks = () => {
                     <SwiperSlide>
                       <div className="single-image">
                         <img src="/images/listings/listings2.jpg" alt="image" />
-                        <Link legacyBehaviorref="/single-listings">
+                        <Link legacyBehavior href="/single-listings">
                           <a className="link-btn"></a>
                         </Link>
                       </div>
@@ -355,7 +355,7 @@ const BookMarks = () => {
                     </li>
                   </ul>
                   <h3>
-                    <Link legacyBehaviorref="/single-listings">
+                    <Link legacyBehavior href="/single-listings">
                       <a>The Beverly Hills Hotel</a>
                     </Link>
                   </h3>
