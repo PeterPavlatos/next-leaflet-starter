@@ -9,7 +9,6 @@ const Dashboard = () => {
 
       <div className="main-content d-flex flex-column">
         <NavbarThree />
-
         <div className="breadcrumb-area">
           <h1>Howdy, Andy!</h1>
           <ol className="breadcrumb">
