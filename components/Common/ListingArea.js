@@ -1,7 +1,7 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
-import Link from "next/link";
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination, Navigation } from 'swiper';
+import Link from 'next/link';
 
 const ListingArea = () => {
   return (
@@ -40,7 +40,7 @@ const ListingArea = () => {
               <div className="single-listings-box">
                 <div className="listings-image">
                   <img src="/images/listings/listings1.jpg" alt="image" />
-                  <Link href="/single-listings">
+                  <Link legacyBehavior href="/single-listings">
                     <a className="link-btn"></a>
                   </Link>
                   <a href="#" className="bookmark-save">
@@ -72,7 +72,7 @@ const ListingArea = () => {
                     </li>
                   </ul>
                   <h3>
-                    <Link href="/single-listings">
+                    <Link legacyBehavior href="/single-listings">
                       <a>Chipotle Mexican Grill</a>
                     </Link>
                   </h3>
@@ -99,16 +99,16 @@ const ListingArea = () => {
             <SwiperSlide>
               <div className="single-listings-box">
                 <div className="listings-image">
-                  <Swiper 
+                  <Swiper
                     loop={true}
-                    navigation={true} 
-                    modules={[Navigation]} 
+                    navigation={true}
+                    modules={[Navigation]}
                     className="listings-image-slides"
                   >
                     <SwiperSlide>
                       <div className="single-image">
                         <img src="/images/listings/listings2.jpg" alt="image" />
-                        <Link href="/single-listings">
+                        <Link legacyBehavior href="/single-listings">
                           <a className="link-btn"></a>
                         </Link>
                       </div>
@@ -117,7 +117,7 @@ const ListingArea = () => {
                     <SwiperSlide>
                       <div className="single-image">
                         <img src="/images/listings/listings3.jpg" alt="image" />
-                        <Link href="/single-listings">
+                        <Link legacyBehavior href="/single-listings">
                           <a className="link-btn"></a>
                         </Link>
                       </div>
@@ -142,7 +142,8 @@ const ListingArea = () => {
                   <ul className="listings-meta">
                     <li>
                       <a href="#">
-                        <i className="flaticon-furniture-and-household"></i> Hotel
+                        <i className="flaticon-furniture-and-household"></i>{' '}
+                        Hotel
                       </a>
                     </li>
                     <li>
@@ -152,7 +153,7 @@ const ListingArea = () => {
                     </li>
                   </ul>
                   <h3>
-                    <Link href="/single-listings">
+                    <Link legacyBehavior href="/single-listings">
                       <a>The Beverly Hills Hotel</a>
                     </Link>
                   </h3>
@@ -180,7 +181,7 @@ const ListingArea = () => {
               <div className="single-listings-box">
                 <div className="listings-image">
                   <img src="/images/listings/listings3.jpg" alt="image" />
-                  <Link href="/single-listings">
+                  <Link legacyBehavior href="/single-listings">
                     <a className="link-btn"></a>
                   </Link>
 
@@ -212,7 +213,7 @@ const ListingArea = () => {
                     </li>
                   </ul>
                   <h3>
-                    <Link href="/single-listings">
+                    <Link legacyBehavior href="/single-listings">
                       <a>Central Shopping Center</a>
                     </Link>
                   </h3>
@@ -239,16 +240,16 @@ const ListingArea = () => {
             <SwiperSlide>
               <div className="single-listings-box">
                 <div className="listings-image">
-                  <Swiper 
+                  <Swiper
                     loop={true}
-                    navigation={true} 
-                    modules={[Navigation]} 
+                    navigation={true}
+                    modules={[Navigation]}
                     className="listings-image-slides"
                   >
                     <SwiperSlide>
                       <div className="single-image">
                         <img src="/images/listings/listings2.jpg" alt="image" />
-                        <Link href="/single-listings">
+                        <Link legacyBehavior href="/single-listings">
                           <a className="link-btn"></a>
                         </Link>
                       </div>
@@ -257,7 +258,7 @@ const ListingArea = () => {
                     <SwiperSlide>
                       <div className="single-image">
                         <img src="/images/listings/listings3.jpg" alt="image" />
-                        <Link href="/single-listings">
+                        <Link legacyBehavior href="/single-listings">
                           <a className="link-btn"></a>
                         </Link>
                       </div>
@@ -292,7 +293,7 @@ const ListingArea = () => {
                     </li>
                   </ul>
                   <h3>
-                    <Link href="/single-listings">
+                    <Link legacyBehavior href="/single-listings">
                       <a>Indice Beauty Center</a>
                     </Link>
                   </h3>

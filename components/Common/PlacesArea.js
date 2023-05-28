@@ -1,7 +1,7 @@
-import React from "react";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
+import React from 'react';
+import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper';
 
 const PlacesArea = () => {
   return (
@@ -36,7 +36,7 @@ const PlacesArea = () => {
                   },
                   768: {
                     slidesPerView: 2,
-                  }
+                  },
                 }}
                 modules={[Pagination]}
                 className="places-slides"
@@ -44,7 +44,7 @@ const PlacesArea = () => {
                 <SwiperSlide>
                   <div className="single-places-box">
                     <div className="image">
-                      <Link href="/destinations">
+                      <Link legacyBehavior href="/destinations">
                         <img
                           src="/images/destinations/destinations11.jpg"
                           alt="image"
@@ -56,7 +56,7 @@ const PlacesArea = () => {
                       <h3>Paris</h3>
                       <span>20 Places</span>
                     </div>
-                    <Link href="/destinations">
+                    <Link legacyBehavior href="/destinations">
                       <a className="link-btn"></a>
                     </Link>
                   </div>
@@ -75,7 +75,7 @@ const PlacesArea = () => {
                       <h3>London</h3>
                       <span>15 Places</span>
                     </div>
-                    <Link href="/destinations">
+                    <Link legacyBehavior href="/destinations">
                       <a className="link-btn"></a>
                     </Link>
                   </div>
@@ -94,7 +94,7 @@ const PlacesArea = () => {
                       <h3>Dubai</h3>
                       <span>21 Places</span>
                     </div>
-                    <Link href="/destinations">
+                    <Link legacyBehavior href="/destinations">
                       <a className="link-btn"></a>
                     </Link>
                   </div>

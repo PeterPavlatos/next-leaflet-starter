@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import Link from "../../utils/ActiveLink";
+import { useState, useEffect } from 'react';
+import Link from '../../utils/ActiveLink';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 const NavbarTwo = () => {
@@ -15,9 +15,9 @@ const NavbarTwo = () => {
       setSticky(false);
     }
   };
-  if (typeof window !== "undefined") {
+  if (typeof window !== 'undefined') {
     // browser code
-    window.addEventListener("scroll", showStickyMenu);
+    window.addEventListener('scroll', showStickyMenu);
   }
 
   const toggleAuth = () => {
@@ -44,8 +44,8 @@ const NavbarTwo = () => {
 
   return (
     <>
-      <div className={displayAuth ? "body_overlay open" : "body_overlay"}></div>
-      <div className={sticky ? "is-sticky navbar-area" : "navbar-area"}>
+      <div className={displayAuth ? 'body_overlay open' : 'body_overlay'}></div>
+      <div className={sticky ? 'is-sticky navbar-area' : 'navbar-area'}>
         <div className="miran-responsive-nav">
           <div className="container">
             <div className="miran-responsive-menu">
@@ -60,7 +60,7 @@ const NavbarTwo = () => {
                 )}
               </div>
               <div className="logo">
-                <Link href="/index-2">
+                <Link legacyBehavior href="/index-2">
                   <a>
                     <img src="/images/black-logo.png" alt="logo" />
                   </a>
@@ -70,10 +70,10 @@ const NavbarTwo = () => {
           </div>
         </div>
 
-        <div className={showMenu ? "miran-nav show" : "miran-nav"}>
+        <div className={showMenu ? 'miran-nav show' : 'miran-nav'}>
           <div className="container-fluid">
             <nav className="navbar navbar-expand-md navbar-light">
-              <Link href="/index-2">
+              <Link legacyBehavior href="/index-2">
                 <a className="navbar-brand">
                   <img src="/images/black-logo.png" alt="logo" />
                 </a>
@@ -97,25 +97,37 @@ const NavbarTwo = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/" activeClassName="active">
+                        <Link legacyBehavior href="/" activeClassName="active">
                           <a className="nav-link">Home Demo - 1</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/index-2" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/index-2"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Home Demo - 2</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/index-3" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/index-3"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Home Demo - 3</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/index-4" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/index-4"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Home Demo - 4</a>
                         </Link>
                       </li>
@@ -134,6 +146,7 @@ const NavbarTwo = () => {
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
+                              legacyBehavior
                               href="/vertical-listings-left-sidebar"
                               activeClassName="active"
                             >
@@ -143,6 +156,7 @@ const NavbarTwo = () => {
 
                           <li className="nav-item">
                             <Link
+                              legacyBehavior
                               href="/vertical-listings-right-sidebar"
                               activeClassName="active"
                             >
@@ -152,6 +166,7 @@ const NavbarTwo = () => {
 
                           <li className="nav-item">
                             <Link
+                              legacyBehavior
                               href="/vertical-listings-full-width"
                               activeClassName="active"
                             >
@@ -161,6 +176,7 @@ const NavbarTwo = () => {
 
                           <li className="nav-item">
                             <Link
+                              legacyBehavior
                               href="/vertical-listings-with-map"
                               activeClassName="active"
                             >
@@ -170,6 +186,7 @@ const NavbarTwo = () => {
 
                           <li className="nav-item">
                             <Link
+                              legacyBehavior
                               href="/vertical-listings-full-map"
                               activeClassName="active"
                             >
@@ -186,6 +203,7 @@ const NavbarTwo = () => {
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
+                              legacyBehavior
                               href="/grid-listings-with-left-sidebar"
                               activeClassName="active"
                             >
@@ -195,6 +213,7 @@ const NavbarTwo = () => {
 
                           <li className="nav-item">
                             <Link
+                              legacyBehavior
                               href="/grid-listings-with-right-sidebar"
                               activeClassName="active"
                             >
@@ -204,6 +223,7 @@ const NavbarTwo = () => {
 
                           <li className="nav-item">
                             <Link
+                              legacyBehavior
                               href="/grid-listings-full-width"
                               activeClassName="active"
                             >
@@ -213,6 +233,7 @@ const NavbarTwo = () => {
 
                           <li className="nav-item">
                             <Link
+                              legacyBehavior
                               href="/grid-listings-with-map"
                               activeClassName="active"
                             >
@@ -222,6 +243,7 @@ const NavbarTwo = () => {
 
                           <li className="nav-item">
                             <Link
+                              legacyBehavior
                               href="/grid-listings-full-map"
                               activeClassName="active"
                             >
@@ -232,25 +254,41 @@ const NavbarTwo = () => {
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/single-listings" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/single-listings"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Listings Details</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/destinations" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/destinations"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Top Place</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/categories" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/categories"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Categories</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/user-profile" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/user-profile"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Author Profile</a>
                         </Link>
                       </li>
@@ -263,13 +301,18 @@ const NavbarTwo = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/dashboard" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/dashboard"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Dashboard</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
                         <Link
+                          legacyBehavior
                           href="/dashboard/messages"
                           activeClassName="active"
                         >
@@ -279,6 +322,7 @@ const NavbarTwo = () => {
 
                       <li className="nav-item">
                         <Link
+                          legacyBehavior
                           href="/dashboard/bookings"
                           activeClassName="active"
                         >
@@ -287,13 +331,18 @@ const NavbarTwo = () => {
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/dashboard/wallet" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/dashboard/wallet"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Wallet</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
                         <Link
+                          legacyBehavior
                           href="/dashboard/my-listing/active"
                           activeClassName="active"
                         >
@@ -303,6 +352,7 @@ const NavbarTwo = () => {
 
                       <li className="nav-item">
                         <Link
+                          legacyBehavior
                           href="/dashboard/reviews"
                           activeClassName="active"
                         >
@@ -312,6 +362,7 @@ const NavbarTwo = () => {
 
                       <li className="nav-item">
                         <Link
+                          legacyBehavior
                           href="/dashboard/bookmarks"
                           activeClassName="active"
                         >
@@ -321,6 +372,7 @@ const NavbarTwo = () => {
 
                       <li className="nav-item">
                         <Link
+                          legacyBehavior
                           href="/dashboard/add-listing"
                           activeClassName="active"
                         >
@@ -330,6 +382,7 @@ const NavbarTwo = () => {
 
                       <li className="nav-item">
                         <Link
+                          legacyBehavior
                           href="/dashboard/profile"
                           activeClassName="active"
                         >
@@ -339,6 +392,7 @@ const NavbarTwo = () => {
 
                       <li className="nav-item">
                         <Link
+                          legacyBehavior
                           href="/dashboard/invoice"
                           activeClassName="active"
                         >
@@ -354,25 +408,41 @@ const NavbarTwo = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/shop" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/shop"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Products List</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/cart" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/cart"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Cart</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/checkout" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/checkout"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Checkout</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/product-details" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/product-details"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Products Details</a>
                         </Link>
                       </li>
@@ -385,31 +455,51 @@ const NavbarTwo = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/blog-1" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/blog-1"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Grid (2 in Row)</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/blog-2" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/blog-2"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Grid (3 in Row)</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/blog-3" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/blog-3"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Grid (Full Width)</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/blog-4" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/blog-4"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Right Sidebar</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/blog-5" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/blog-5"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Left Sidebar</a>
                         </Link>
                       </li>
@@ -421,6 +511,7 @@ const NavbarTwo = () => {
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
+                              legacyBehavior
                               href="/single-blog-1"
                               activeClassName="active"
                             >
@@ -430,6 +521,7 @@ const NavbarTwo = () => {
 
                           <li className="nav-item">
                             <Link
+                              legacyBehavior
                               href="/single-blog-2"
                               activeClassName="active"
                             >
@@ -439,6 +531,7 @@ const NavbarTwo = () => {
 
                           <li className="nav-item">
                             <Link
+                              legacyBehavior
                               href="/single-blog-3"
                               activeClassName="active"
                             >
@@ -456,25 +549,41 @@ const NavbarTwo = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/about" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/about"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">About Us</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/how-it-works" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/how-it-works"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">How It Work</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/pricing" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/pricing"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Pricing</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/gallery" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/gallery"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Gallery</a>
                         </Link>
                       </li>
@@ -485,13 +594,18 @@ const NavbarTwo = () => {
                         </a>
                         <ul className="dropdown-menu">
                           <li className="nav-item">
-                            <Link href="/events" activeClassName="active">
+                            <Link
+                              legacyBehavior
+                              href="/events"
+                              activeClassName="active"
+                            >
                               <a className="nav-link">Events</a>
                             </Link>
                           </li>
 
                           <li className="nav-item">
                             <Link
+                              legacyBehavior
                               href="/single-events"
                               activeClassName="active"
                             >
@@ -502,31 +616,51 @@ const NavbarTwo = () => {
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/testimonial" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/testimonial"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Testimonials</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/faq" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/faq"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">FAQ</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/404" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/404"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">404 Error</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/coming-soon" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/coming-soon"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Coming Soon</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/contact" activeClassName="active">
+                        <Link
+                          legacyBehavior
+                          href="/contact"
+                          activeClassName="active"
+                        >
                           <a className="nav-link">Contact</a>
                         </Link>
                       </li>
@@ -547,6 +681,7 @@ const NavbarTwo = () => {
 
                   <div className="option-item">
                     <Link
+                      legacyBehavior
                       href="/dashboard/add-listing"
                       activeClassName="active"
                     >
@@ -571,7 +706,7 @@ const NavbarTwo = () => {
               </div>
             </div>
 
-            <div className={displayMiniAuth ? "container active" : "container"}>
+            <div className={displayMiniAuth ? 'container active' : 'container'}>
               <div className="option-inner">
                 <div className="others-option">
                   <div className="option-item">
@@ -599,6 +734,7 @@ const NavbarTwo = () => {
 
                   <div className="option-item">
                     <Link
+                      legacyBehavior
                       href="/dashboard/add-listing"
                       activeClassName="active"
                     >
@@ -618,8 +754,8 @@ const NavbarTwo = () => {
       <div
         className={
           displayAuth
-            ? "modal loginRegisterModal show"
-            : "modal loginRegisterModal"
+            ? 'modal loginRegisterModal show'
+            : 'modal loginRegisterModal'
         }
         id="loginRegisterModal"
       >
@@ -664,7 +800,7 @@ const NavbarTwo = () => {
                           </li>
                         </ul>
                       </div>
-                      
+
                       <span className="sub-title">
                         <span>Or login with</span>
                       </span>
