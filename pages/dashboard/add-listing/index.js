@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import NavbarThree from '../../../components/_App/NavbarThree';
+// import NavbarThree from '../../../components/_App/NavbarThree';
 // import DashboardNavbar from '../../../components/Dashboard/DashboardNavbar';
 
 import React, { useEffect, useState } from 'react';
@@ -39,7 +39,7 @@ const AddListing = () => {
       {/* <DashboardNavbar /> */}
 
       <div className="main-content d-flex flex-column">
-        <NavbarThree />
+        {/* <NavbarThree /> */}
 
         <div className="breadcrumb-area">
           <h1>Add Listings</h1>
