@@ -1,21 +1,12 @@
 {
   "name": "next-leaflet-starter",
-  "homepage": "https://next-leaflet-starter.netlify.app",
   "version": "0.1.0",
   "license": "MIT",
-  "author": "Colby Fayock <hello@colbyfayock.com>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "export": "next build && next export",
     "start": "next start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/colbyfayock/next-leaflet-starter"
-  },
-  "bugs": {
-    "url": "https://github.com/colbyfayock/next-leaflet-starter/issues"
   },
   "dependencies": {
     "copy-webpack-plugin": "^11.0.0",
@@ -25,6 +16,10 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-leaflet": "^4.2.0",
-    "sass": "^1.57.0"
+    "sass": "^1.57.0",
+    "react-dropzone": "^11.3.4",
+    "react-tabs": "^5.1.0",
+    "swiper": "^8.4.2",
+    "fslightbox-react": "^1.6.2-2"
   }
 }
