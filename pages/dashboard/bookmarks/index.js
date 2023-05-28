@@ -5,12 +5,12 @@ import Link from 'next/link';
 
 //components
 import NavbarThree from '../../../components/_App/NavbarThree';
-import DashboardNavbar from '../../../components/Dashboard/DashboardNavbar';
+// import DashboardNavbar from '../../../components/Dashboard/DashboardNavbar';
 
 const BookMarks = () => {
   return (
     <>
-      <DashboardNavbar />
+      {/* <DashboardNavbar /> */}
 
       <div className="main-content d-flex flex-column">
         <NavbarThree />
